@@ -5,7 +5,7 @@ site_description: 这是一个使用 Bootswatch 主题的示例网站
 # 选择 Bootswatch 主题及具体风格（如 cerulean、darkly 等）
 theme:
     name: bootswatch
-    theme: cerulean  # 可替换为其他风格：cosmo、cyborg、flatly、journal 等
+    bootswatch_theme: cerulean  # 可替换为其他风格：cosmo、cyborg、flatly、journal 等
 
 # 导航结构（根据实际文档目录修改）
 nav:
