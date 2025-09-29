@@ -2,10 +2,9 @@
 site_name: 我的文档网站       # 站点名称
 site_description: 这是一个使用 Bootswatch 主题的示例网站
 
-# 选择 Bootswatch 主题及具体风格（如 cerulean、darkly 等）
+# 选择主题
 theme:
-    name: bootswatch
-    bootswatch_theme: cerulean  # 可替换为其他风格：cosmo、cyborg、flatly、journal 等
+    name: readthedocs  # 使用内置的 readthedocs 主题
 
 # 导航结构（根据实际文档目录修改）
 nav:
@@ -15,7 +14,6 @@ nav:
 
 # 插件配置
 plugins:
-    - bootswatch
     - search
 
 # 额外配置（可选）
