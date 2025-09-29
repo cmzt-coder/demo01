@@ -1,0 +1,28 @@
+# mkdocs.yml
+site_name: 我的文档网站       # 站点名称
+site_description: 这是一个使用 Bootswatch 主题的示例网站
+
+# 选择 Bootswatch 主题及具体风格（如 cerulean、darkly 等）
+theme:
+    name: bootswatch
+    theme: cerulean  # 可替换为其他风格：cosmo、cyborg、flatly、journal 等
+
+# 导航结构（根据实际文档目录修改）
+nav:
+    - 首页: index.md
+    - 快速开始: getting-started.md
+    - 配置指南: configuration.md
+
+# 额外配置（可选）
+extra:
+    version: 1.0.0  # 显示版本号
+    logo: images/logo.png  # 自定义 logo（需在 docs 目录下创建 images 文件夹）
+
+# 扩展功能（可选）
+markdown_extensions:
+    - toc:
+          permalink: true  # 标题添加永久链接
+    - codehilite:       # 代码高亮
+          linenums: true   # 显示行号
+extra_css:
+  - styles/custom.css
