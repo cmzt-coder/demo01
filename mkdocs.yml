@@ -13,6 +13,11 @@ nav:
     - 快速开始: getting-started.md
     - 配置指南: configuration.md
 
+# 插件配置
+plugins:
+    - bootswatch
+    - search
+
 # 额外配置（可选）
 extra:
     version: 1.0.0  # 显示版本号
